@@ -1,0 +1,50 @@
+
+       /*  let square = document.createElement('div');
+        let body = document.querySelector('body');
+        
+        let y = 1;
+        let size = 1000;
+        let windowHeight = document.documentElement.clientHeight;
+
+        setInterval(creatSquare,100)
+        setInterval(searchBlock,100)
+
+        function creatSquare(){
+          let x = calculWidth();
+           
+            console.log(size);
+        let square = document.createElement('div');
+       
+        square.style.left = x + 'px';
+        square.style.top = y + 'px';
+        square.classList.add('square');
+        body.append(square);
+        }
+        
+      
+        function calculWidth(){
+            let windowWidth = document.documentElement.clientWidth;
+
+        let x = Math.floor(Math.random() * (windowWidth - 10));
+
+        return x;
+        }
+   
+        function calculHeight(top){
+            let result = top[0];
+
+            console.log(result)
+
+            return result;
+        }
+
+        function searchBlock(){
+
+let elems =document.querySelectorAll('.square');
+
+for (let elem of elems){
+    let y = calculHeight(elem.style.top);
+    elem.style.top = y + 10 + 'px';
+}
+
+} */
